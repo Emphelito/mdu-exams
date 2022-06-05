@@ -1,5 +1,5 @@
 # OldExams
-To aid students preparing themselves for exams this repository provides a collection of old exams from Mälardalen University. This repository is mainly aimed at Computer Science related courses, but old exams from all courses at MDH is welcome.
+To aid students preparing themselves for exams this repository provides a collection of old exams from Mälardalen University. This repository is mainly aimed at Computer Science related courses, but old exams from all courses at MDU are welcome.
 
 ### Contributing
 Contributions are welcome and encouraged, just open a pull request.
