@@ -1,0 +1,18 @@
+# run github workflow on all pull requests and run "structure-checker.sh in .github/scripts/structure-checker.sh" script in the root directory of the repository 
+
+name: Check Structure
+
+on:
+  pull_request:
+    branches:
+      - master
+    
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Run structure-checker.sh
+      run: ./.github/scripts/structure-checker.sh
+      
